@@ -1,0 +1,347 @@
+
+    @media (min-width:1980px){
+        body{background-image: url(../img/4010.jpg);
+            background-size: cover;
+                background-repeat: no-repeat;
+                font-family: 'Sansita Swashed', cursive;
+            font-size:xx-large;}
+#botonera_principal{
+	width:auto;
+	height: 70px;
+	background-color: white;
+	align-self: start;
+}
+
+nav ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;/* Lo muestro uno al lado del otro  */
+
+	text-shadow: 0px 1px #FFF;
+	border-radius: 5px;
+
+}
+
+nav ul li a, label{
+	color: #999;
+	text-decoration: none; 
+	display: block;
+	padding: 26px 21px;	       
+	font-family: Arial, Helvetica , sans-serif;
+}
+
+nav ul li a:hover{
+	color: #000;
+	background-color: red;
+}
+
+#demo{
+    float: left;
+}
+
+h1{
+ 
+    text-align: center;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 1em;
+}
+.servicios{
+    display: flex;
+    flex-flow: row nowrap;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+}
+aside{
+  
+    height:80% ;
+    float: right;
+    width: 20%;
+background-image: url(../img/nature1.jpg);
+background-attachment: fixed;
+background-repeat:no-repeat ;
+background-size: cover;
+}
+    
+.padreimagenes{
+    height: 120%;
+    display: flex;
+    flex-flow: column nowrap;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+
+}
+.img2{
+    
+width: max-content;
+height: max-content;
+    
+        position: relative;
+}
+
+
+.label1{
+   text-align: center;
+   
+}
+iframe {
+    border: 3px solid black;
+    width: 40%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.output {
+    background: #eee;
+}
+
+
+}
+    
+/* aca empezamos con las media querys*/
+
+
+@media (min-width:1024px) and (max-width:1978px){
+    body{background-image: url(../img/4010.jpg);
+        background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Sansita Swashed', cursive;}
+        nav {
+        width: auto;
+        height: 30%;
+        background-color: seashell;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    nav , .servicios , .padreimagenes {
+        flex-direction: column;
+    }
+    
+    #botonera_principal{
+        width:auto;
+        height: 70px;
+        background-color: white;
+        align-self: start;
+    }
+    
+    nav ul{
+        list-style: none;
+        margin:0;
+        padding: 0;
+    }
+    
+    nav ul li{
+    /* Lo muestro uno al lado del otro  */
+    
+        text-shadow: 0px 1px #FFF;
+        border-radius: 5px;
+    
+    }
+    
+    nav ul li a, label{
+        color: #999;
+        text-decoration: none; 
+        
+        padding: 26px 21px;	       
+        font-family: Arial, Helvetica , sans-serif;
+    }
+    label{
+        width: 80px;
+    }
+    
+    nav ul li a:hover{
+        color: #000;
+        background-color: red;
+    }
+    
+    #demo{
+        float: left;
+    }
+    
+    h1{
+        
+        text-align: center;
+        background-color: aquamarine;
+    }
+    .servicios{
+        display: flex;
+        flex-flow: row nowrap;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       justify-content: space-around;
+       align-content: center;
+       align-items: center;
+    }
+    aside{
+  
+        height:80% ;
+        float: right;
+        width: 20%;
+    background-image: url(../img/nature1.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    }
+    }
+    .padreimagenes{
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       justify-content: space-around;
+       align-content: center;
+       align-items: center;
+    
+    }
+    .img2{
+        
+    width: max-content;
+    height: max-content;
+        
+            position: relative;
+    }
+    
+    
+    .label1{
+       text-align: center;
+       
+    }
+    iframe {
+        border: 3px solid black;
+        width: 40%;
+        margin-top: 50px;
+    }
+    
+    .output {
+        background: #eee;
+    }
+  
+    
+    
+    
+    @media (max-width:1024px){
+        body{background-image: url(../img/4010.jpg);
+            background-size: cover;
+                background-repeat: no-repeat;
+                font-family: 'Sansita Swashed', cursive;
+            }
+            nav {
+            width: 100%;
+            height: 30%;
+            background-color: seashell;
+            justify-content: space-around;
+            flex-direction: column;
+        
+        }
+        nav , .servicios , .padreimagenes {
+            flex-direction: column;
+        }
+        
+        #botonera_principal{
+            width:auto;
+            height: 70px;
+            background-color: white;
+            align-self: start;
+        }
+        
+        nav ul{
+            list-style: none;
+            margin:0;
+            padding: 0;
+        }
+        
+        nav ul li{
+            display: inline-block;/* Lo muestro uno al lado del otro  */
+        
+            text-shadow: 0px 1px #FFF;
+            border-radius: 5px;
+        
+        }
+        
+        nav ul li a, label{
+            color: #999;
+            text-decoration: none; 
+            flex-direction: column;
+            padding: 26px 21px;	       
+            font-family: Arial, Helvetica , sans-serif;
+        }
+        
+        nav ul li a:hover{
+            color: #000;
+            background-color: red;
+        }
+        
+        #demo{
+            float: left;
+        }
+        
+        h1{
+            visibility: hidden;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        .servicios{
+            display: flex;
+            flex-flow: row nowrap;
+           flex-direction: column;
+           flex-wrap: nowrap;
+           justify-content: space-around;
+           align-content: center;
+           align-items: center;
+        }
+        aside{
+            visibility: hidden;
+            height:80% ;
+            float: right;
+            width: 20%;
+      
+        background-attachment: fixed;
+        }
+        .padreimagenes{
+            height: 120%;
+            display: flex;
+            flex-flow: column nowrap;
+           flex-direction: column;
+           flex-wrap: nowrap;
+           justify-content: space-around;
+           align-content: center;
+           align-items: center;
+        
+        }
+        .img2{
+            
+        width: max-content;
+        height: max-content;
+            
+                position: relative;
+        }
+        
+        
+        .label1{
+           text-align: center;
+           
+        }
+        iframe {
+       
+            width: 40%;
+            margin-top: 50px;
+        }
+        
+        .output {
+            background: #eee;
+        }
+     
+         
+    
+        
+        }
