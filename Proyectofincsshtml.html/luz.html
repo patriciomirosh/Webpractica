@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasto de Luz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@623&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="script" href="../form.js"/>
+    <link rel="icon" type="image/PNG" href="img/icono.PNG" >
+</head>
+
+<body>
+    <header>
+        <nav id="botonera_principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="agua.html">Agua</a></li>
+                <li><a href="luz.html">Luz</a></li>
+                <li><a href="gas.html">Gas</a></li>
+                <li><label>Buscar <input type="text" id="Name" name="Name" /></label>
+                    </label></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Gastos de Agua</h1>
+    <main>
+        <div class="img3">
+            <h2>Ahorro de Luz</h2>
+
+        
+        <img src="img/rayo.jpg" alt="rayo">
+        </div>
+        <aside>
+            <p>Ahorrar y usar eficientemente la energía eléctrica, así como cuidar el medio ambiente,
+                no son sinónimo de sacrificar o reducir nuestro nivel de bienestar o el grado de satisfacción de
+                nuestras necesidades cotidianas, por el contrario, <b>un cambio de hábitos y actitudes pueden
+                    favorecer una mayor eficiencia en el uso de la electricidad </b> , el empleo racional de los recursos
+                energéticos, la
+                protección de la economía familiar y la preservación de nuestro entorno natural.
+            </p>
+        </aside>
+    </main>
+   
+    <div class="pie">
+        <section>
+            <h4>Gasto de Luz</h4>
+            <form onsubmit="return validate()" method="POST">
+
+                <ul>
+                    <li><label for="GET-name"class="min">Mi Nombre:</label>
+                        <input type="text" name="name" id="nombre" placeholder="Introduce tu nombre">
+                    <li><label for="GET-number"class="min">Gasto de Luz Kw/mes:</label>
+                        <input  type="number" name="gasto" id="gasto">
+                        <input type="submit" value="calcular"></li>
+                </ul>
+
+            </form>
+        </section>
+        <footer class="translacion">
+            <h5>Informacion de Autor: </h5>
+            <p>Email pato.16.pp@gmail.com <br> Nombre: miroshnitshenko patricio</p>
+        </footer>
+     
+    </div>
+
+</body>
+
+</html>

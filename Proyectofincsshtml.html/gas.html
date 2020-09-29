@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasto de gas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@623&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="script" href="../form.js"/>
+    <link rel="icon" type="image/PNG" href="img/icono.PNG" >
+</head>
+
+<body>
+    <header>
+        <nav id="botonera_principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="agua.html">Agua</a></li>
+                <li><a href="luz.html">Luz</a></li>
+                <li><a href="gas.html">Gas</a></li>
+                <li><label>Buscar <input type="text" id="Name" name="Name" /></label>
+                    </label></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <h1>Gastos de Gas</h1>
+    <main>
+ 
+        <div class="img3">
+            <h2>Ahorro de Gas</h2>
+            <img src="img/volcan.jpg" alt="">
+        </div>
+        <aside>
+            <p>el gas es uno de los mayores contaminantes del planeta <b> en cuanto a quitar varias vidas porque es un medio
+                    de intoxicación grave;</b>. <br> por eso toca tener mucho cuidado al malgastar el gas y tener muy en
+                cuenta de lo que se está utilizando alrededor.
+                El gas se utiliza en autos, cocina, encendedores, etc. <br> <b> El gas es uno de los servicios más baratos,
+                    pero también uno de los más peligrosos. </b> <br> Por eso toca tener mucho cuidado al malgastar este
+                químico ya que puede ocasionar muchas tragedias en la vida humana y en el planeta también. Una recomendación
+                de este es mantenerlo fuera del alcance de los niños porque sería muy doloroso saber que les paso algo por
+                el gas.</p>
+        </aside>
+    </main>
+    
+    <div class="pie">
+        <section>
+            <h4>Gasto de Gas</h4>
+            <form onsubmit="return validate()" method="POST">
+
+                <ul>
+                    <li><label for="GET-name"class="min">Mi Nombre:</label>
+                        <input type="text" name="name" id="nombre" placeholder="Introduce tu nombre">
+                    <li><label for="GET-name"class="min">Gasto de gas m3/mes:</label>
+                        <input  type="number" name="gasto" id="gasto">
+                        <input type="submit" value="calcular"></li>
+                </ul>
+
+            </form>
+        </section>
+        <footer class="translacion">
+            <h5>Informacion de Autor: </h5>
+            <p>Email pato.16.pp@gmail.com <br> Nombre: miroshnitshenko patricio</p>
+        </footer>
+    </div>
+</body>
+
+</html>
