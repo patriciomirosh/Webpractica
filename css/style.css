@@ -1,5 +1,5 @@
 
-    @media (min-width:1980px){
+    @media  (min-width:1024px) and (max-width:1980px){
         body{background-image: url(../img/4010.jpg);
             background-size: cover;
                 background-repeat: no-repeat;
@@ -110,7 +110,7 @@ iframe {
 /* aca empezamos con las media querys*/
 
 
-@media (min-width:1024px) and (max-width:1978px){
+@media (min-width:800px) and (max-width:1023px){
     body{background-image: url(../img/4010.jpg);
         background-size: cover;
             background-repeat: no-repeat;
@@ -229,7 +229,7 @@ iframe {
     
     
     
-    @media (max-width:1024px){
+    @media (max-width:800px){
         body{background-image: url(../img/4010.jpg);
             background-size: cover;
                 background-repeat: no-repeat;
